@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:linear-gradient(90deg,black,rgb(56, 56, 56));
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(90, 90, 90);
+    justify-content: space-between;
+}
+.the_first{
+    display: flex;
+    margin-left: 20px;
+}
+.bars{
+    background-color: rgb(90, 90, 90);
+    border: none;
+    display: flex;
+    align-items: center;
+}
+#barsi{
+    font-size:30px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-out;
+}
+#barsi:hover{
+    background-color: rgb(117, 117, 117);
+}
+.the_second{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.a-home{
+    width: 150px;
+    height: 40px;
+}
+.a-home button{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    border: none;
+    transition: 0.5s ease-out;
+}
+.a-home button:hover{
+    transform: scale(1.1);
+}
+#glass{
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+}
+#shopping{
+    margin-left: 20px;
+    color: black;
+    font-size: 30px;
+}
+.D{
+    color: red;
+    font-size: 50px;
+}
+.h1{
+    display: flex;
+    align-items: center;
+}
+section{
+    display: flex;
+    width: 100%;
+}
+.lift_div{
+    width: 20%;
+    background-color: rgb(105, 0, 0);
+    height: auto;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.lift_div div{
+    width: 90%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    cursor: pointer;
+    margin: 10px 0px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s ease-out;
+}
+.lift_div div:hover{
+    background-color: black;
+}
+.lift_div hr{
+    width: 80%;
+    color: white;
+    background-color: white;
+    margin: 50px;
+}
+.lift_div div i{
+    font-weight: 600;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.lift_div div span{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
